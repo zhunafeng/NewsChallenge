@@ -48,7 +48,7 @@ that defined base interfaces, classes and shared widgets
 
 The project uses MVVM [Model-View-ViewModel] architecture to have a unidirectional flow of data, separation of concern, testability, and a lot more.
 
-![](../../../../var/folders/7s/6qgpvv_j0xn20083t_zs7pz40000gn/T/TemporaryItems/NSIRD_screencaptureui_wlbdvw/Screen Shot 2022-12-13 at 2.38.58 am.png)
+<img width="798" alt="Screen Shot 2022-12-13 at 12 13 38 pm" src="https://user-images.githubusercontent.com/96706516/207201928-c47bd6d6-e2e2-467d-b23d-3de11ec19259.png">
 
 ### Note:
 In data model, in order to make a better user experience, this project always retrieves data from local database [cache is always source of truth], which can always show some articles for users, regardless of with or without internet.
