@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.ImageLoader
-import coil.api.load
+import coil.load
 import coil.request.CachePolicy
 import com.example.newschallenge.R
 import com.example.newschallenge.core.utils.inflate
