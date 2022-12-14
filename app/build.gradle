@@ -9,14 +9,14 @@ plugins {
 
 android {
     namespace 'com.example.newschallenge'
-    compileSdk 33
+    compileSdk compileSDKVersion
 
     defaultConfig {
         applicationId "com.example.newschallenge"
-        minSdk 21
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        minSdk minSDKVersion
+        targetSdk compileSDKVersion
+        versionCode versionCode
+        versionName versionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
