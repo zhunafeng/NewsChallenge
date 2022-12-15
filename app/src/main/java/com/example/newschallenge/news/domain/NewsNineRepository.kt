@@ -64,7 +64,7 @@ class DefaultNewsNineRepository @Inject constructor(
             imageList?.sortedBy { imageItem -> imageItem.imageSize }
             // get the smallest image at first index and set it into variable "smallestImage" in each NewsNineArticle
             if(!imageList.isNullOrEmpty()){
-                it.smallestImage = imageList?.get(0)?.url
+                it.smallestImage = imageList.first().url
             }
             it
             //save the list into database
