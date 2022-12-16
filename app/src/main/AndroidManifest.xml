@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".news.ui.activity.NewsNineActivity"
+            android:name=".news.presentations.home.NewsNineActivity"
             android:launchMode="singleTop"
             android:exported="true">
             <intent-filter>
@@ -31,11 +31,11 @@
                 android:value="" />
         </activity>
 
-        <activity android:name=".news.ui.activity.NewsNineDetailActivity"
+        <activity android:name=".news.presentations.detail.NewsNineDetailActivity"
             android:exported="true">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.newschallenge.news.ui.activity.NewsNineActivity" />
+                android:value="com.example.newschallenge.news.presentations.home.NewsNineActivity" />
         </activity>
     </application>
 

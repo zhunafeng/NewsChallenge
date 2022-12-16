@@ -121,8 +121,8 @@ dependencies {
 //
 //    def androidx_test_ext = "1.1.1"
 //    androidTestImplementation "androidx.test.ext:junit-ktx:$androidx_test_ext"
-//    def hamcrestVersion = '2.2'
-//    testImplementation "org.hamcrest:hamcrest:$hamcrestVersion"
+    def hamcrestVersion = '2.2'
+    testImplementation "org.hamcrest:hamcrest:$hamcrestVersion"
     // Debug
     implementation "com.jakewharton.timber:timber:$timberVersion"
 }

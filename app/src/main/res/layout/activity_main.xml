@@ -8,7 +8,7 @@
     tools:layout_editor_absoluteY="81dp">
 
 
-    <com.example.newschallenge.core.widget.CompleteRecyclerView
+    <com.example.newschallenge.news.presentations.widget.CompleteRecyclerView
         android:id="@+id/newsList"
         android:layout_width="0dp"
         android:layout_height="0dp"

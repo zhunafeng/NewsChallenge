@@ -1,8 +1,8 @@
 package com.example.newschallenge.utils.storage
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.newschallenge.news.storage.NewsNineDatabase
-import com.example.newschallenge.news.storage.entity.NewsNineArticleDb
+import com.example.newschallenge.news.data.local.NewsNineDatabase
+import com.example.newschallenge.news.data.local.NewsNineArticleDb
 import com.example.newschallenge.utils.DaoTest
 import com.example.newschallenge.utils.assertItems
 import kotlinx.coroutines.runBlocking

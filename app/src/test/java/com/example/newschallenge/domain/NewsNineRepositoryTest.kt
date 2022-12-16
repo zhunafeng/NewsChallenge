@@ -1,12 +1,10 @@
 package com.example.newschallenge.domain
 
-import com.example.newschallenge.core.ui.ViewState
-import com.example.newschallenge.news.api.NewsNineArticle
-import com.example.newschallenge.news.api.NewsNineResponse
-import com.example.newschallenge.news.api.NewsNineService
-import com.example.newschallenge.news.domain.DefaultNewsNineRepository
-import com.example.newschallenge.news.storage.NewsNineArticlesDao
-import com.example.newschallenge.news.storage.entity.NewsNineArticleDb
+import com.example.newschallenge.news.data.remote.NewsNineArticle
+import com.example.newschallenge.news.data.remote.NewsNineResponse
+import com.example.newschallenge.news.data.remote.NewsNineService
+import com.example.newschallenge.news.data.local.NewsNineArticlesDao
+import com.example.newschallenge.news.data.local.NewsNineArticleDb
 import com.example.newschallenge.utils.assertItems
 import com.nhaarman.mockitokotlin2.doReturn
 import com.nhaarman.mockitokotlin2.doThrow
