@@ -19,6 +19,8 @@ import org.mockito.InjectMocks
 import org.mockito.Mock
 import org.mockito.MockitoAnnotations
 import retrofit2.Response
+import com.example.newschallenge.news.data.DefaultNewsNineRepository
+import com.example.newschallenge.news.presentations.ViewState
 
 @RunWith(JUnit4::class)
 class NewsNineRepositoryTest {
