@@ -13,7 +13,8 @@ The features of this project includes:
 * Unit test
 
 ## Project Description
-![](/Users/zhunafeng/Desktop/Screen Shot 2022-12-17 at 6.24.09 pm.png)
+
+![Screen Shot 2022-12-17 at 6 24 09 pm](https://user-images.githubusercontent.com/96706516/208230884-ebcf1051-e583-46f5-bcc7-332bd1fea6dc.png)
 
 
 ### 1. Project Structure
