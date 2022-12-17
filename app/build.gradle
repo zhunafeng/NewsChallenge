@@ -113,6 +113,9 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:$espressoVersion", {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    androidTestImplementation "androidx.test:rules:1.3.0"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:3.3.0"
+
     testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockitoKotlinVersion"
     androidTestImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockitoKotlinVersion"
 
