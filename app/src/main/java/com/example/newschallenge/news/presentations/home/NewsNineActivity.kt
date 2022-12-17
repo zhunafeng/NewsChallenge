@@ -4,12 +4,12 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.newschallenge.core.ui.ViewState
-import com.example.newschallenge.core.ui.base.BaseActivity
 import com.example.newschallenge.news.util.observeNotNull
 import com.example.newschallenge.news.util.toast
 import com.example.newschallenge.databinding.ActivityMainBinding
 import com.example.newschallenge.news.data.local.NewsNineArticleDb
+import com.example.newschallenge.news.presentations.BaseActivity
+import com.example.newschallenge.news.presentations.ViewState
 import com.example.newschallenge.news.presentations.detail.NewsNineDetailActivity
 
 

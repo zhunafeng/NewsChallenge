@@ -3,9 +3,11 @@ package com.example.newschallenge.news.presentations.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
+import com.example.newschallenge.news.data.NewsNineRepository
 import com.example.newschallenge.news.data.local.NewsNineArticleDb
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+import com.example.newschallenge.news.presentations.ViewState
 
 /**
  * A container for [NewsNineArticleDb] related data to show on the UI.

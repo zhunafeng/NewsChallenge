@@ -8,8 +8,8 @@ import androidx.room.RoomDatabase
 
 @Database(
     entities = [NewsNineArticleDb::class],
-//        version = NewsDatabaseMigration.latestVersion
-    version = 1
+    version = NewsDatabaseMigration.latestVersion
+
 )
 abstract class NewsNineDatabase : RoomDatabase() {
 
@@ -24,7 +24,7 @@ abstract class NewsNineDatabase : RoomDatabase() {
 
         fun buildDefault(context: Context) =
             Room.databaseBuilder(context, NewsNineDatabase::class.java, databaseName)
-//                        .addMigrations(*NewsDatabaseMigration.allMigrations)
+                .addMigrations(*NewsDatabaseMigration.allMigrations)
                 .build()
 
         @VisibleForTesting

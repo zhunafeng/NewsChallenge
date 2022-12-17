@@ -1,6 +1,6 @@
 package com.example.newschallenge.news.data
 
-import com.example.newschallenge.core.ui.ViewState
+import com.example.newschallenge.news.data.local.NewsNineArticleDb
 import com.example.newschallenge.news.util.httpError
 import com.example.newschallenge.news.data.remote.ArticleImage
 import com.example.newschallenge.news.data.remote.NewsNineResponse
@@ -15,6 +15,7 @@ import kotlinx.coroutines.flow.*
 import retrofit2.Response
 import javax.inject.Inject
 import javax.inject.Singleton
+import com.example.newschallenge.news.presentations.ViewState
 
 /**
  * Repository abstracts the logic of fetching the data and persisting it for
@@ -62,7 +63,7 @@ class DefaultNewsNineRepository @Inject constructor(
             imageList?.sortedBy { imageItem -> imageItem.imageSize }
             // get the smallest image at first index and set it into variable "smallestImage" in each NewsNineArticle
             if(!imageList.isNullOrEmpty()){
-                it.smallestImage = imageList?.get(0)?.url
+                it.smallestImage = imageList?.first()?.url
             }
             it
             //save the list into database
