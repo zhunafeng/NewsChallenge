@@ -18,18 +18,21 @@ The features of this project includes:
 
 
 ### 1. Project Structure
+This project was structured based on the combination of packaging strategies (package by layer and feature). This combination would be
+a better way for the further project development:
+1. clear package layer
+2. clear feature 
+3. more readable, scalable and manageable
+#### 1.1 Data
+All data, including remote, local and data cache strategy, is residing in this layer
 
-#### 1.1 core
-that defined base interfaces, classes and shared widgets
+#### 1.2 Presentation
+This layer locates View layer and ViewModel layer, divided by the package strategy of features.
+this is very clear for developers to check out each features by the package name where includes activities, fragments
+ViewModel and so on
 
-#### 1.2 news
-- package api. it handles network requests
-- package di. it deals with dependency injection for database and service
-- package domain - repository that:
-  * requests new data from remote server and update local data
-  * interacts with viewModel
-- package storage that manage local data by using Room
-- package ui that manages UI interface and viewModel
+#### 1.3 Others such as Util
+This layer includes some helper class
 
 ### 2. Libraries and tools 🛠
 
