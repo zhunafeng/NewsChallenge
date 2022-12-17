@@ -4,12 +4,12 @@ import android.content.Intent
 import androidx.test.core.app.ActivityScenario
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.newschallenge.news.ui.activity.NewsNineActivity
 import org.junit.Before
 import org.junit.BeforeClass
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import com.example.newschallenge.news.presentations.home.NewsNineActivity
 
 @RunWith(AndroidJUnit4::class)
 class OpenUrlInstrumentedTest {
