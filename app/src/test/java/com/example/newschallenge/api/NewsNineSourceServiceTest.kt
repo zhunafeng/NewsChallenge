@@ -1,6 +1,6 @@
 package com.example.newschallenge.api
 
-import com.example.newschallenge.news.api.NewsNineService
+import com.example.newschallenge.news.data.remote.NewsNineService
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.CoreMatchers.`is`
 import org.hamcrest.CoreMatchers.notNullValue

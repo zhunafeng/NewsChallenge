@@ -86,8 +86,8 @@ dependencies {
     implementation "io.coil-kt:coil:$coilVersion"
 
     // Hilt + Dagger
-    implementation "com.google.dagger:hilt-android:$hiltAndroidVersion"
-    kapt "com.google.dagger:hilt-android-compiler:$hiltAndroidVersion"
+    implementation "com.google.dagger:hilt-android:2.44"
+    kapt "com.google.dagger:hilt-compiler:2.44"
 //    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hiltViewModelVersion"
 //    kapt "androidx.hilt:hilt-compiler:$hiltViewModelVersion"
 
@@ -121,8 +121,8 @@ dependencies {
 //
 //    def androidx_test_ext = "1.1.1"
 //    androidTestImplementation "androidx.test.ext:junit-ktx:$androidx_test_ext"
-//    def hamcrestVersion = '2.2'
-//    testImplementation "org.hamcrest:hamcrest:$hamcrestVersion"
+    def hamcrestVersion = '2.2'
+    testImplementation "org.hamcrest:hamcrest:$hamcrestVersion"
     // Debug
     implementation "com.jakewharton.timber:timber:$timberVersion"
 }
