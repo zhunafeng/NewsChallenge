@@ -55,7 +55,7 @@ The project uses MVVM [Model-View-ViewModel] architecture to have a unidirection
 <img width="798" alt="Screen Shot 2022-12-13 at 12 13 38 pm" src="https://user-images.githubusercontent.com/96706516/207201928-c47bd6d6-e2e2-467d-b23d-3de11ec19259.png">
 
 ### Note:
-In data model, in order to make a better user experience, this project always retrieves data from local database [cache is always source of truth], which can always show some articles for users, regardless of with or without internet.
+In data model, in order to make a better user experience, this project always retrieves data from local database <span style="background-color:green">cache is always source of truth</span>, which can always show some articles for users, regardless of with or without internet.
 And the data from remote server will be saved into database first. 
 
 --------------------
